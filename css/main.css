@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: "Nunito";
+  font-size: 5.3125rem;
+}
+
+h3 {
+  font-family: "Nunito";
+  font-size: 2.3125rem;
+}
+
+h4 {
+  font-family: "Nunito";
+  font-size: 2rem;
+}
+
+.main-section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+}
+
+
+.animation-container {
+  position: relative;
+  width: 130%;
+  height: 0;
+  padding-bottom: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+
+
+.lottie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Set the aspect ratio of the video */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.text-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.text-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  font-size: medium;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
